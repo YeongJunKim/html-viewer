@@ -1,0 +1,14 @@
+[workspace]
+name = "html_viewer"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = "3.10.*"
+flask = ">=3.1.0,<4"
+flask_cors = ">=4.0.0,<5"
+pillow = ">=11.1.0,<12"
+nodejs = ">=22.13.0,<22.14"
+open3d = ">=0.19.0,<0.20"
+ipykernel = ">=6.29.5,<7"
+plotly = ">=6.1.2,<7"
